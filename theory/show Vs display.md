@@ -87,3 +87,5 @@ If asked **"What is the difference between `show()` and `display()` in Databrick
 > **`show()` is a Spark DataFrame API method that prints a textual representation of the DataFrame, while `display()` is a Databricks-specific function that provides a richer, interactive visualization of the DataFrame, including filtering, sorting, and charting capabilities.**
 
 One important point: **`display()` is not a Spark API method**. It is a Databricks notebook feature.
+
+Note: Print also doesn't print any data only a pointer will be printed in spark
